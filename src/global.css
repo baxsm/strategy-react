@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    background-color: #d6c8b9;
+    color: #111111;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 99999999999999999;
+}
+
+.reactModal {
+	overflow: hidden;
+	border-radius: 2px;
+	outline: none;
+	z-index: 9999999;
+	max-height: 100vh;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.658);
+}
+
+@media screen and (min-width: 768px) {
+	.reactModal {
+		border-right: 1px solid #ccc;
+	}
+}
+
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}
