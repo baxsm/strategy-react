@@ -4,13 +4,13 @@ import { AiFillFacebook, AiOutlineTwitter, AiOutlineInstagram } from 'react-icon
 export default function Banner() {
 
     const styles = {
-        wrapper: 'bannerBackground p-[4rem]',
-        container: 'py-0 px-[60px]',
-        content: 'flex flex-col gap-[2rem] justify-start place-items-start py-[6rem] px-[4rem] pl-[40vw]',
+        wrapper: 'p-[4rem] bannerBackground',
+        container: 'py-0 lg:px-[60px]',
+        content: 'flex flex-col gap-[2rem] justify-start place-items-start py-[5rem] lg:py-[6rem] lg:px-[4rem] lg:pl-[40vw] md:py-[5rem] md:pl-[30vw]',
         socials: 'flex place-items-center justify-center gap-[2rem]',
         socialIcon: 'text-[2rem] text-dark hover:text-dark2 cursor-pointer',
-        logoText: 'font-[700] text-[4.5rem] tracking-[100px] leading-[2.2] margin-0',
-
+        logoText: 'font-[700] text-[4.5rem] tracking-[30px] sm:tracking-[60px] md:tracking-[100px] leading-[2.2] margin-0 lowercase',
+        title: 'uppercase text-[1.5rem] tracking-[8px] font-[700]'
     }
 
     return (
@@ -35,9 +35,9 @@ export default function Banner() {
                     </div>
                 </div>
                 <div className={styles.logo}>
-                    <h1 className={styles.logoText}>stra<br/>tegy</h1>
+                    <h1 className={styles.logoText}>Stra<br/>tegy</h1>
                 </div>
-                <div className={styles.title}></div>
+                <div className={styles.title}>Collection</div>
                 </div>
             </div>
         </section>
