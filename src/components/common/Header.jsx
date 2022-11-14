@@ -40,7 +40,7 @@ export default function Header() {
     ]
 
     const styles = {
-        header: 'w-full flex justify-center place-items-center',
+        header: 'w-full flex justify-center place-items-center fixed top-0',
         container: 'p-6',
         openIcon: 'text-[1.5rem] text-dark hover:text-dark2 cursor-pointer',
         modal: 'md:max-w-[250px] fixed left-0 right-0',
@@ -74,6 +74,7 @@ export default function Header() {
                 overlayClassName="modalOverlay"
                 className={"reactModal " + styles.modal}
                 closeTimeoutMS={500}
+                ariaHideApp={false}
             >
                 <div className={styles.container}>
                     <div className={styles.modalCloseContainer}>
