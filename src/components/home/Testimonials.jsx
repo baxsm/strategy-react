@@ -48,7 +48,7 @@ export default function Testimonials() {
                                 </div>
                                 <div className={styles.contentContainer}>
                                     <h6 className={styles.contentName}>{item.name}</h6>
-                                    <p className={styles.contentText}>{item.text}</p>
+                                    <p className={styles.contentText}>“{item.text}”</p>
                                 </div>
                             </div>
                         )

@@ -9,7 +9,7 @@ export default function Team() {
         topLeftContainer: 'relative w-full',
         topLeftImageContainer: 'sm:pr-[20vw]',
         topLeftImage: 'w-full sm:w-[250px] sm:h-[320px] object-cover',
-        topLeftContentContainer: 'relative bottom-[6rem] left-4 sm:bottom-[6rem] sm:right-[-12rem]',
+        topLeftContentContainer: 'relative bottom-[6rem] left-4 sm:bottom-[6rem] sm:left-[12rem]',
         topRightContainer: 'flex place-items-center lg:h-[320px]',
         topRightText: 'font-[700] text-[3rem] uppercase tracking-[8px] leading-[1.1] text-left',
         bottomContainer: 'flex flex-col lg:flex-row justify-end align-items-start gap-[4rem] w-full',
