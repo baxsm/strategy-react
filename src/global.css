@@ -91,3 +91,11 @@ ul li {
 		background-size: 115%;
 	}
 }
+
+.teamTitle {
+	@apply text-[1.8rem] font-[700] text-[#fff]
+}
+
+.teamSubtitle {
+	@apply uppercase tracking-[4px] text-[#fff] font-[400] text-[1.25rem]
+}

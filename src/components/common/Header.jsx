@@ -46,9 +46,9 @@ export default function Header() {
         modal: 'md:max-w-[250px] fixed left-0 right-0',
         modalCloseContainer: 'flex justify-end pb-[1rem]',
         closeIcon: 'text-[#fff] text-[1.5rem] hover:text-dark2 cursor-pointer',
-        contentUl: 'flex flex-col gap-[1rem] justify-center place-items-center',
+        contentUl: 'flex flex-col gap-[1.5rem] justify-center place-items-center',
         contentLi: '',
-        anchor: 'text-[#fff] hover:text-dark2 text-[1.25rem]',
+        anchor: 'text-[#fff] hover:text-dark2 text-[1.25rem] tracking-[1px] uppercase',
     }
 
     const [modalActive, setModalActive] = useState(false)

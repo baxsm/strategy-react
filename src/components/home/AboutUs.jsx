@@ -9,7 +9,7 @@ export default function AboutUs() {
         aboutContainer: 'relative w-full md:w-auto',
         content: 'absolute p-[2rem] top-0 left-0 right-0 bottom-0 flex flex-col justify-center place-items-center gap-[2rem] text-[#fff]',
         rightTitle: 'text-[3rem] uppercase tracking-[8px] font-[700] text-center',
-        rightSubtitle: 'text-[1rem] spacing-[1.6] text-center ',
+        rightSubtitle: 'text-[1rem] leading-[1.6] text-center ',
         rightButton: 'border-2 border-[#fff] px-6 py-2 hover:bg-[#fff] hover:text-dark uppercase font-[700]',
         imageContainer: '',
         imageRight: 'h-[600px] w-full lg:w-[550px] object-cover',
