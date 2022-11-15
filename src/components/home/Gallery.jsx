@@ -36,7 +36,7 @@ export default function Gallery() {
         wrapper: 'mt-[2rem] flex justify-center place-items-center',
         swipper: 'customGallerySwiper flex justify-center place-items-center',
         imageContainer: 'flex justify-center place-items-center',
-        image: 'h-[400px] w-full md:w-[336px] object-cover cursor-pointer filter grayscale-[80%]',
+        image: 'h-[400px] w-full object-cover cursor-pointer filter grayscale-[80%]',
     }
 
     const [modalActive, setModalActive] = useState(false)
